@@ -43,7 +43,7 @@ export default class GameCardFetcher {
                                 <h3 class="card-title text-white h6">${card.title}</h3>
                                 <span class="text-capitalize text-white px-2 rounded-2 free">free</span>
                             </div>
-                            <p class="card-text text-center text-white-50 small">${card.short_description.slice(" ",20)}</p>
+                            <p class="card-text text-center text-white-50 small">${card.short_description.slice(" ",21)}</p>
                         </div>
                     </div>
                     <div class="card-footer d-flex justify-content-between align-items-center">
